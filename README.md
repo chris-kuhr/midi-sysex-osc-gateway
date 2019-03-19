@@ -14,6 +14,7 @@ Quick and dirty build instructions for Ubuntu:
 - Verify you have "universe" in your sources.list. If not add it, lib
 Dirty way
 $ grep universe /etc/apt/sources.list|grep -v "^#"
+
 deb http://ar.archive.ubuntu.com/ubuntu/ xenial universe
 deb http://ar.archive.ubuntu.com/ubuntu/ xenial-updates universe
 deb http://ar.archive.ubuntu.com/ubuntu/ xenial-backports main restricted universe multiverse
