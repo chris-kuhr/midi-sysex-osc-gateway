@@ -12,14 +12,17 @@ ALSA (libasound)	# compile with '-lasound'
 
 ##### H5 Quick and dirty build instructions for Ubuntu:
 1. Verify you have "universe" in your sources.list. If not add it
+
 Dirty way
-`$ grep universe /etc/apt/sources.list|grep -v "^#"
+
+```$ grep universe /etc/apt/sources.list|grep -v "^#"
 
 deb http://ar.archive.ubuntu.com/ubuntu/ xenial universe
 deb http://ar.archive.ubuntu.com/ubuntu/ xenial-updates universe
 deb http://ar.archive.ubuntu.com/ubuntu/ xenial-backports main restricted universe multiverse
 deb http://security.ubuntu.com/ubuntu xenial-security universe
-` 
+```
+
 If Univese not present, add it:
 `$ sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) universe"`
 
